@@ -1,0 +1,85 @@
+body {
+  font-family: helvetica;
+  font-size: 20px;
+  text-align: center;
+  background: rgb(240, 202, 199);
+  color: black;
+  margin: 3em;
+}
+
+
+
+strong {
+  text-decoration: underline;
+}
+
+button {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1.2em;
+  font-family: monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:active {
+  background: grey;
+  border-radius: 400px;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 1px solid black;
+}
+.scoreboard h2 {
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th,
+.scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+.rock {
+  position: absolute;
+  top:505px;
+  left: 480px;
+  border-radius: 20px;
+}
+
+.paper {
+  position: absolute;
+  top: 505px;
+  left: 590px;
+  border-radius: 20px;
+}
+
+.scissors {
+  position: absolute;
+  top: 505px;
+  left: 720px;
+  border-radius: 20px;
+}
+
+#status {
+  margin-top: 20px;
+}
+
+#result {
+  margin-top: 20px;
+}
